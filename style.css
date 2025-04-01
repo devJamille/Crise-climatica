@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgba(0, 255, 76, 0.425);
+    height: 80px;
+    color: white;
+    background-image: url(icon/mund.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+   
+    
+}
+
+main.green{
+background-color: rgb(255, 255, 255);
+height: 1000px;
+width: 800px;
+margin: auto;
+padding-top: 30px;
+border-radius: 5px;
+
+
+}
+ 
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 80px;
+}
