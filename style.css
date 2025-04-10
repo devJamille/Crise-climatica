@@ -1,39 +1,150 @@
 @charset "UTF-8";
 
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Petit+Formal+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');
+
+
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
+body {
+    height: 100vh;
+    width: 100vw;
     background-color: black;
+
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 500;
 }
 
-header{
-    background-color: rgba(0, 255, 76, 0.425);
-    height: 80px;
+
+
+header {
+    background-color: rgba(116, 183, 231, 0.712);
     color: white;
-    background-image: url(icon/mund.webp);
-    background-repeat: no-repeat;
-    background-position: top;
-   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+header > p{
+    margin-left:670px;
+    margin-top: 30px;
     
 }
 
-main.green{
-background-color: rgb(255, 255, 255);
-height: 1000px;
-width: 800px;
-margin: auto;
-padding-top: 30px;
-border-radius: 5px;
 
+nav.link {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgba(240, 248, 255, 0.637);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+}
+
+a {
+    margin: 5px;
+    padding: 10px;
+    color: rgba(245, 249, 250, 0.753);
+    background-color: rgba(33, 33, 34, 0.356);
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+    text-align: center;
+
+    transition: color 0.9s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: hsla(59, 38%, 54%, 0.282);
+}
+
+main {
+
+    background-color: rgb(255, 255, 255);
+    min-width: 480px;
+    max-width: 750px;
+    height: 1000px;
+    margin: auto;
+     border-radius: 15px;
+}
+
+h1.primeiro {
+    padding-top: 80px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 
 }
- 
+
+div.inicio>p {
+    text-indent: 30px;
+    line-height: 17px;
+    text-align: justify;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.img-secas {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+div.img-secas>img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.637);
+
+}
+
+p.mud-climatica {
+    font-size: 13px;
+    padding-bottom: 60px;
+    padding-top: 5px;
+}
+
+p.objectivo {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: hsla(59, 38%, 54%, 0.87);
+    border-radius: 10px;
+    box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.534);
+}
 
 
-footer{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
     background-color: rgba(0, 0, 0, 0.397);
     height: 80px;
 }
