@@ -81,6 +81,7 @@ main {
      border-radius: 15px;
 }
 
+
 h1.primeiro {
     padding-top: 80px;
     padding-bottom: 5px;
@@ -112,11 +113,13 @@ div.img-secas>img {
 
 }
 
+
 p.mud-climatica {
     font-size: 13px;
     padding-bottom: 60px;
     padding-top: 5px;
 }
+
 
 p.objectivo {
     padding-bottom: 15px;
@@ -143,6 +146,84 @@ button{
 button:hover {
   background-color: hsla(59, 38%, 54%, 0.87);
 }
+
+
+/* CSS da Página2 crise climatica */
+
+main#segundo {
+
+    background-color: rgb(255, 255, 255);
+    min-width: 480px;
+    max-width: 750px;
+    height: 1600px;
+    margin: auto;
+     border-radius: 15px;
+}
+
+h3.pag-segunda{
+    padding-bottom: 5px;
+}
+
+div.cor-fundo{
+    background-color:hsla(59, 38%, 54%, 0.87);
+}
+
+p.mud-climaticap {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-indent: 30px;
+}
+
+
+div.img-grafico {
+    width: 100%;
+    margin: 0%;
+    padding-top: 15%;
+}
+
+div.img-grafico>img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
