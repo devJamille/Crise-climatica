@@ -34,12 +34,14 @@ header {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    margin-bottom: 20px;
 
 }
 
 header > p{
     margin-left:670px;
     margin-top: 30px;
+    
     
 }
 
@@ -79,13 +81,16 @@ main {
     height: 1000px;
     margin: auto;
      border-radius: 15px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     
 }
 
 
 h1.primeiro {
     padding-top: 80px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    ;
 
 }
 
@@ -129,17 +134,24 @@ p.objectivo {
     box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.534);
 }
 
-button{
+div.principal-buttom{
+    display: flex;
+    gap: 10px;
+   width: 30px;
+}
+
+button.but{
     background-color: rgba(92, 174, 233, 0.815);
   color: white; 
-  padding: 10px 20px; 
-  border: 1px solid black; 
+  border: none;
+  padding: 10px 10px;  
   border-radius: 5px; 
   font-size: 16px; 
   cursor: pointer; 
   transition: background-color 0.3s ease; 
   margin-top: 40px;
-  margin-left: 320px;
+  margin-left: 650px;
+  margin-right: 29px;
   box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.658);
 }
 
@@ -155,32 +167,48 @@ main#segundo {
     background-color: rgb(255, 255, 255);
     min-width: 480px;
     max-width: 750px;
-    height: 1600px;
+    height: 1300px;
     margin: auto;
      border-radius: 15px;
 }
 
 h3.pag-segunda{
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 div.cor-fundo{
-    background-color:hsla(59, 38%, 54%, 0.87);
+    background-color:hsla(59, 38%, 54%, 0.568);
+    padding: 10px;
+    
 }
 
-p.mud-climaticap {
-    font-size: 16px;
+div.cor-fundo>li{
     padding-bottom: 10px;
-    padding-top: 5px;
+}
+
+abbr{
+    padding-bottom: 10px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+ul{
+    list-style: disc;
     padding-left: 10px;
-    text-indent: 30px;
+    padding-bottom: 10px;
+}
+
+div.cor-fundo>p{
+    padding-top: 10px;
 }
 
 
 div.img-grafico {
     width: 100%;
     margin: 0%;
-    padding-top: 15%;
+    padding-top: 5%;
+
 }
 
 div.img-grafico>img {
@@ -191,10 +219,37 @@ div.img-grafico>img {
     
 }
 
+div.buttom{
+    display: flex;
+    gap: 10px;
+   width: 30px;
+}
+
+button{
+    background-color: rgba(92, 174, 233, 0.815);
+  color: white; 
+  border: none;
+  padding: 10px 10px;  
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-top: 150px;
+  margin-left: 29px;
+  margin-right: 500px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.658);
+}
+
+button:hover {
+  background-color: hsla(59, 38%, 54%, 0.87);
+}
 
 
 
 
+footer{
+    margin-top: 20px;
+}
 
 
 
@@ -228,6 +283,7 @@ div.img-grafico>img {
 
 
 footer {
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgba(92, 174, 233, 0.815);
     height: 80px;
+    width: auto;
 }
