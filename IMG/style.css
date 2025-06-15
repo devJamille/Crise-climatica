@@ -13,7 +13,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(101, 128, 148);
+    background-color: black;
 
 
     font-family: "Roboto", sans-serif;
@@ -27,79 +27,72 @@ body {
 
 
 header {
-    background-color: rgb(101, 128, 148);
+    background-color: rgba(116, 183, 231, 0.712);
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 2px;
+    align-content: center;
+    align-items: center;
 
 }
 
 header > p{
     margin-left:670px;
-    margin-top: 49px;
-    color:rgb(224, 224, 224);
-    
+    margin-top: 30px;
     
 }
 
 
 nav.link {
-    
+    margin-left: 30px;
     margin-top: 30px;
-    color: rgb(186, 189, 192);
-    height: 40px;
+    color: rgba(240, 248, 255, 0.637);
+    height: 50px;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 a {
     margin: 5px;
     padding: 10px;
-    color: rgb(224, 224, 224);
-    background-color: rgb(101, 128, 148);
-    font-size: 16.9px;
-    
-    
+    color: rgba(245, 249, 250, 0.753);
+    background-color: rgba(33, 33, 34, 0.356);
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.733);
     text-decoration: none;
     text-align: center;
-    transition: color 0.0s ease, background-color 0.0s ease;
+
+    transition: color 0.9s ease, background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: hsl(200, 20%, 54%);
-    color:rgb(255, 255, 255);
-    
+    background-color: hsla(59, 38%, 54%, 0.282);
 }
 
 main {
 
     background-color: rgb(255, 255, 255);
     min-width: 480px;
-    width: 950px;
+    max-width: 750px;
     height: 1000px;
-    
     margin: auto;
-   border-radius: 0px 0px 0px 0px;
+     border-radius: 15px;
 }
 
 h1.primeiro {
-    padding-top: 49px;
+    padding-top: 80px;
     padding-bottom: 5px;
-    padding-left: 15px;
-    color: rgb(75, 69, 69);
+    padding-left: 10px;
 
 }
 
 div.inicio>p {
-    text-indent: 4px;
+    text-indent: 30px;
     line-height: 17px;
     text-align: justify;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -113,60 +106,47 @@ div.img-secas {
 div.img-secas>img {
 
     width: 100%;
-    height: 500px;
+    height: auto;
     display: block;
-    
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.637);
 
 }
 
 p.mud-climatica {
-    
-    line-height: 17px;
-    text-align: justify;
-    padding: 0px 10px;
-    margin: 0px 0px 49px;
-    
+    font-size: 13px;
+    padding-bottom: 60px;
+    padding-top: 5px;
 }
-
-h3.mud-climaticatitulo{
- padding-bottom: 5px;
-padding-left: 15px;
-padding-top: 49px;
-color: rgb(75, 69, 69);
-font-size: 18.72px;
-font-weight: 700;
-}
-
 
 p.objectivo {
     padding-bottom: 15px;
-    
-    background-color: rgb(101, 128, 148);
-    color: rgb(24, 24, 24);
-    text-align: justify;
-    padding: 5px 10px;
-    margin: 0px 0px 49px;
-    
+    padding-top: 15px;
+    background-color: hsla(59, 38%, 54%, 0.87);
+    border-radius: 10px;
+    box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.534);
 }
 
 button{
-    background-color: rgb(101, 128, 148);
-  color: rgb(224, 224, 224);
+    background-color: rgba(92, 174, 233, 0.815);
+  color: white; 
   padding: 10px 20px; 
-font-size: 16px; 
+  border: 1px solid black; 
+  border-radius: 5px; 
+  font-size: 16px; 
   cursor: pointer; 
- margin-left: 410px;
- border: none;
-  outline: none;
+  transition: background-color 0.3s ease; 
+  margin-top: 40px;
+  margin-left: 320px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.658);
 }
 
 button:hover {
-  background-color: rgba(108, 126, 139, 0.767);
+  background-color: hsla(59, 38%, 54%, 0.87);
 }
 
 
 
 footer {
-    background-color: rgb(102, 164, 207);
+    background-color: rgba(0, 0, 0, 0.397);
     height: 80px;
 }
