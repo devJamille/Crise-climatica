@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Petit+Formal+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Petit+Formal+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&family=Staatliches&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+Rounded+1c&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Petit+Formal+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&family=Staatliches&display=swap');
 
 
 * {
@@ -24,6 +27,18 @@ body {
         "wdth" 500;
 }
 
+.staatliches-regular {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 header {
@@ -36,6 +51,7 @@ header {
     margin-bottom: 90px;
     height: 80px;
 
+
 }
 
 
@@ -47,6 +63,10 @@ header {
    text-align: center;
    margin-left:30%;
    margin-top: 28px;
+   margin-bottom: -1px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 300;
+   
   
 }
 
@@ -54,11 +74,14 @@ header {
 nav.link {
     
     margin-top: 50px;
+    
     height: 40px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+   font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 300;
     
 }
 
@@ -88,18 +111,21 @@ main {
 
     background-color: rgb(255, 255, 255);
     min-width: 480px;
-    width: 945px;
-    height: 1300px;
+    width: 977px;
+    height: 1335px;
+    
     
     margin: auto;
    border-radius: 0px 0px 0px 0px;
 }
 
-h1.primeiro {
+h2.primeiro {
     padding-top: 49px;
     padding-bottom: 5px;
     padding-left: 30px;
     color: #26654b;
+    font-weight: 200;
+    font-family: "Staatliches", sans-serif;
 
 }
 
@@ -111,6 +137,8 @@ div.inicio>p {
     padding-left: 30px;
     padding-right: 30px;
      color: #26654b;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 300;
 }
 
 div.img-secas {
@@ -133,31 +161,110 @@ p.mud-climatica {
     line-height: 17px;
     text-align: justify;
     padding:0px 30px 0px 30px;
-    margin: 0px 0px 0px;
+
+    margin-bottom: 49px;
     color: #26654b;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 300;;
     
 }
 
-h3.mud-climaticatitulo{
+h1.mud-climaticatitulo{
  padding-bottom: 5px;
 padding-left: 30px;
 padding-top: 49px;
 color: #26654b;
-font-size: 18.72px;
-font-weight: 700;
+font-weight: 200;
+font-family: "Staatliches", sans-serif;;
 }
 
+h3.prosol{
+     position: absolute;
+      top: 0px;
+      left: 185px;
+      color: #26654b; 
+         font-weight: 200;
+    font-family: "Staatliches", sans-serif;
+}
 
+.container {
+      position: relative;
+      width: 550px; 
+      padding-left: 120px;
+    }
+
+    .imagem-fundo {
+      width: 50%;
+      height: auto;
+      padding-top: 20px;
+      padding-left: 30px;
+      
+    }
+
+    .texto-sobre-imagem {
+      position: absolute;
+      top: 28.4px;
+      left: 335px;
+      color:#26654b; 
+      font-size: 17.1px;
+      
+      background-color: #c4d6cf;
+      padding: 30px 10px 30px 10px;
+      border-radius: 1px;
+      width: 90%;
+      height: 76%;
+    }
+
+
+    h3.sol{
+     position: absolute;
+      top: 0px;
+      left: 185px;
+      color: #26654b; 
+         font-weight: 200;
+    font-family: "Staatliches", sans-serif;
+}
+
+.container-sol {
+      position: relative;
+      width: 550px; 
+      padding-left: 120px;
+      margin-top: 30px;
+    }
+
+    .imagem-fundo-sol {
+      width: 50%;
+      height: auto;
+      padding-top: 28px;
+      padding-left: 30px;
+      
+    }
+
+    .texto-sobre-imagem-sol {
+      position: absolute;
+      top: 28.4px;
+      left: 335px;
+      color: #26654b; 
+      font-size: 17.1px;
+      
+      background-color: #c4d6cf;
+      padding-top: 30px;
+      padding-left: 10px;
+      border-radius: 1px;
+      width: 90%;
+      height: 82%;
+    }
 
 
 button{
   background-color: #26654b;
   color: #c4d6cf;
   padding: 10px 20px; 
-font-size: 16px; 
+ font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 300;
   cursor: pointer; 
- margin-left: 410px;
- margin-top: 270px;
+ margin-left: 440px;
+ margin-top: 55px;
  border: none;
   outline: none;
 }
@@ -174,6 +281,8 @@ p.objectivo {
     background-color: #26654b;
     color: #c4d6cf;
     text-align:  justify center;
+    font-size: small;
+    padding-top: 30px;
   }  
 
 
@@ -182,6 +291,8 @@ p.objectivo {
     padding: 15px;
     padding-left: 100px;
     padding-right: 100px;
+    font-size: small;
+    color:#c4d6cf; ;
   }
 footer {
     
