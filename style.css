@@ -13,7 +13,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(101, 128, 148);
+    background-color: #c4d6cf;
 
 
     font-family: "Roboto", sans-serif;
@@ -27,42 +27,48 @@ body {
 
 
 header {
-    background-color: rgb(101, 128, 148);
-    color: white;
+    background-color: #26654b;
+    color: #c4d6cf;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-bottom: 2px;
+    margin-bottom: 90px;
+    height: 80px;
 
 }
 
-header > p{
-    margin-left:670px;
-    margin-top: 49px;
-    color:rgb(224, 224, 224);
-    
-    
+
+   header > div{
+   
+   color: #c4d6cf;
+   width: 730px;
+   height: 50px;
+   text-align: center;
+   margin-left:30%;
+   margin-top: 28px;
+  
 }
 
 
 nav.link {
     
-    margin-top: 30px;
-    color: rgb(186, 189, 192);
+    margin-top: 50px;
     height: 40px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 a {
     margin: 5px;
     padding: 10px;
-    color: rgb(224, 224, 224);
-    background-color: rgb(101, 128, 148);
+    color: #c4d6cf;
+    background-color: #26654b;
     font-size: 16.9px;
+   
     
     
     text-decoration: none;
@@ -71,8 +77,10 @@ a {
 }
 
 a:hover {
-    background-color: hsl(200, 20%, 54%);
-    color:rgb(255, 255, 255);
+    background-color: #c4d6cf;
+    color:#26654b;
+    box-shadow: 0px 0px 1px 1px #26654b;;
+    
     
 }
 
@@ -80,8 +88,8 @@ main {
 
     background-color: rgb(255, 255, 255);
     min-width: 480px;
-    width: 950px;
-    height: 1000px;
+    width: 945px;
+    height: 1300px;
     
     margin: auto;
    border-radius: 0px 0px 0px 0px;
@@ -90,18 +98,19 @@ main {
 h1.primeiro {
     padding-top: 49px;
     padding-bottom: 5px;
-    padding-left: 15px;
-    color: rgb(75, 69, 69);
+    padding-left: 30px;
+    color: #26654b;
 
 }
 
 div.inicio>p {
-    text-indent: 4px;
+    
     line-height: 17px;
     text-align: justify;
     margin-bottom: 49px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+     color: #26654b;
 }
 
 div.img-secas {
@@ -123,50 +132,60 @@ p.mud-climatica {
     
     line-height: 17px;
     text-align: justify;
-    padding: 0px 10px;
-    margin: 0px 0px 49px;
+    padding:0px 30px 0px 30px;
+    margin: 0px 0px 0px;
+    color: #26654b;
     
 }
 
 h3.mud-climaticatitulo{
  padding-bottom: 5px;
-padding-left: 15px;
+padding-left: 30px;
 padding-top: 49px;
-color: rgb(75, 69, 69);
+color: #26654b;
 font-size: 18.72px;
 font-weight: 700;
 }
 
 
-p.objectivo {
-    padding-bottom: 15px;
-    
-    background-color: rgb(101, 128, 148);
-    color: rgb(24, 24, 24);
-    text-align: justify;
-    padding: 5px 10px;
-    margin: 0px 0px 49px;
-    
-}
+
 
 button{
-    background-color: rgb(101, 128, 148);
-  color: rgb(224, 224, 224);
+  background-color: #26654b;
+  color: #c4d6cf;
   padding: 10px 20px; 
 font-size: 16px; 
   cursor: pointer; 
  margin-left: 410px;
+ margin-top: 270px;
  border: none;
   outline: none;
 }
 
 button:hover {
-  background-color: rgba(108, 126, 139, 0.767);
+  background-color: #c4d6cf;
+  color:#26654b;
+  box-shadow: 0px 0px 1px 1px #26654b;
 }
 
 
+p.objectivo {
+    
+    background-color: #26654b;
+    color: #c4d6cf;
+    text-align:  justify center;
+  }  
 
+
+
+  footer > p{
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 footer {
-    background-color: rgb(102, 164, 207);
-    height: 80px;
+    
+    height: 120px;
+    background-color: #26654b;
+    text-align: center;
 }
