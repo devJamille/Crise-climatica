@@ -16,9 +16,11 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #c4d6cf;
-
-
+   background-image: url(IMG/earth-hour-4730500_1280.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    background-position: center ;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -26,7 +28,35 @@ body {
     font-variation-settings:
         "wdth" 500;
 }
+h1,h2,h3{
+   font-family: "Staatliches", sans-serif;
+   color: #26654b;
+   font-size: 24px;
+}
+h1{
+    padding-top: 49px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+   
+    
+    
+    letter-spacing: 1px;
 
+}
+h2{
+    padding-top: 49px;
+    padding-bottom: 5px;
+    padding-left: 50px;    
+        
+    letter-spacing: 1px;
+}
+
+h3{
+     position: absolute;
+      top: -5px;
+      left: 52px;
+     letter-spacing: 1px;
+}
 
 
 .staatliches-regular {
@@ -44,7 +74,7 @@ body {
 
 
 header {
-    background-color: #26654b;
+    background-color: #26654be5;
     color: #c4d6cf;
     display: flex;
     flex-direction: row;
@@ -66,8 +96,8 @@ header {
    margin-left:30%;
    margin-top: 28px;
    margin-bottom: -1px;
-    font-family: "M PLUS Rounded 1c", sans-serif;
-   font-weight: 300;
+    font-family: "Staatliches", sans-serif;
+   font-weight: 400;
    
   
 }
@@ -82,8 +112,8 @@ nav.link {
     display: flex;
     justify-content: center;
     align-items: center;
-   font-family: "M PLUS Rounded 1c", sans-serif;
-   font-weight: 300;
+   font-family: "Staatliches", sans-serif;
+   font-weight: 100;
     
 }
 
@@ -115,24 +145,14 @@ a:hover {
 
 main {
 
-    background-color: rgb(255, 255, 255);
+    background-color: #f4f5f0f3;
     min-width: 480px;
     width: 977px;
-    height: 1335px;
+    height: 1310px;
     
     
     margin: auto;
    border-radius: 0px 0px 0px 0px;
-}
-
-h2.primeiro {
-    padding-top: 49px;
-    padding-bottom: 5px;
-    padding-left: 30px;
-    color: #26654b;
-    font-weight: 200;
-    font-family: "Staatliches", sans-serif;
-
 }
 
 div.inicio>p {
@@ -140,8 +160,8 @@ div.inicio>p {
     line-height: 17px;
     text-align: justify;
     margin-bottom: 49px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
      color: #26654b;
     font-family: "M PLUS Rounded 1c", sans-serif;
    font-weight: 300;
@@ -166,99 +186,86 @@ p.mud-climatica {
     
     line-height: 17px;
     text-align: justify;
-    padding:0px 30px 0px 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 
     margin-bottom: 49px;
     color: #26654b;
     font-family: "M PLUS Rounded 1c", sans-serif;
-   font-weight: 300;;
+   font-weight: 300;
+   letter-spacing: 1px;
     
 }
-
-h1.mud-climaticatitulo{
- padding-bottom: 5px;
-padding-left: 30px;
-padding-top: 49px;
-color: #26654b;
-font-weight: 200;
-font-family: "Staatliches", sans-serif;;
-}
-
-h3.prosol{
-     position: absolute;
-      top: 0px;
-      left: 185px;
-      color: #26654b; 
-         font-weight: 200;
-    font-family: "Staatliches", sans-serif;
-}
-
 .container {
       position: relative;
-      width: 550px; 
-      padding-left: 120px;
+      width: 500px; 
+      padding-left: 10px;
     }
 
     .imagem-fundo {
-      width: 50%;
+      width: 40%;
       height: auto;
-      padding-top: 20px;
-      padding-left: 30px;
+      padding-top: 30px;
+      padding-left: 40px;
       
     }
 
     .texto-sobre-imagem {
       position: absolute;
-      top: 28.4px;
-      left: 335px;
+      top: 30.9px;
+     left: 206px;
       color:#26654b; 
       font-size: 17.1px;
       
       background-color: #c4d6cf;
-      padding: 30px 10px 30px 10px;
+      padding-top: 18px;
+      padding-bottom: 10px;
+      padding-left: 20px;
       border-radius: 1px;
-      width: 90%;
-      height: 76%;
+      width: 720px;
+      height: 75%;
     }
 
 
-    h3.sol{
+    h3{
      position: absolute;
       top: 0px;
-      left: 185px;
+      left: 52px;
       color: #26654b; 
-         font-weight: 200;
+      font-weight: 200;
     font-family: "Staatliches", sans-serif;
+    letter-spacing: 1px;
 }
 
 .container-sol {
       position: relative;
-      width: 550px; 
-      padding-left: 120px;
+      width: 500px; 
+      padding-left: 10px;
       margin-top: 30px;
     }
 
     .imagem-fundo-sol {
-      width: 50%;
+      width: 40%;
       height: auto;
       padding-top: 28px;
-      padding-left: 30px;
+      padding-left: 40px;
       
     }
 
     .texto-sobre-imagem-sol {
       position: absolute;
       top: 28.4px;
-      left: 335px;
+      left: 206px;
       color: #26654b; 
       font-size: 17.1px;
       
       background-color: #c4d6cf;
-      padding-top: 30px;
-      padding-left: 10px;
+      padding-top: 18px;
+      padding-bottom: 10px;
+      padding-left: 20px;
       border-radius: 1px;
-      width: 90%;
-      height: 82%;
+      width: 720px;
+      height: 78%;
     }
 
 
@@ -303,6 +310,6 @@ p.objectivo {
 footer {
     
     height: 120px;
-    background-color: #26654b;
+    background-color: #26654bcb;
     text-align: center;
 }
